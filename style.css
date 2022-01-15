@@ -1,0 +1,95 @@
+.body{
+    background-color: white;
+}
+.navbar
+{
+    box-sizing: content-box;
+    width: auto;
+    height: 60px;
+    border: solid  white;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    
+}
+.sticky {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  }
+.home
+{
+    margin:0 15px;
+    text-decoration: none;
+    color: rgb(128, 0, 0);
+
+}
+.text1
+{
+    margin-top:50px;
+    color: lightseagreen;
+    display:flex;
+    justify-content: center;
+
+}
+.text
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.text2
+{
+    margin-top:100px;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+.text3
+{
+    margin-top:100px;
+    width:30rem;
+    display: flex;
+    justify-content: space-between;
+}
+.cadre
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+.patients
+{
+box-sizing: content-box;
+width: 15rem;
+height:20rem;
+border: solid 	#00ccb1 10px;
+padding: 5px;
+border-radius: 10px;
+background-color: 	#00ccb1;
+}
+.doctors
+{
+box-sizing: content-box;
+width: 15rem;
+height:20rem;
+border: solid 		#3d83df 10px;
+padding: 5px;
+border-radius: 10px;
+background-color: 	#3d83df;
+}
+.clinics
+{
+    box-sizing: content-box;
+    width: 15rem;
+    height:20rem;
+    border: solid 		#1b2734 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: 	#1b2734;
+    overflow: hidden;
+
+}
+.brands
+{
+display: flex ;
+}
